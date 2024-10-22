@@ -1,0 +1,16 @@
+.admin>h3{
+    font-family: 'roboto';
+    font-weight:600;
+    font-size: 40px;
+    font-style: italic;
+    color: aqua;
+    margin-top: 80px;
+}
+
+.adminbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+}

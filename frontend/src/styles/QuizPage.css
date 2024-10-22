@@ -1,0 +1,103 @@
+/* QuizPage.css */
+
+/* Add more spacing between options and increase clickable area */
+.quizbody>h1{
+  color: #e9ecef;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-container {
+  background-color: rgb(249, 250, 251);
+  height: 55px;
+  width: 95%;
+  border-radius: 10px;
+  /* padding: 15px; */
+  /* display: flex; */
+  /* align-items: center; */
+  transition: background-color 0.3s ease;
+}
+
+.option-container:hover {
+  background-color: #e9ecef;
+}
+
+.option-label {
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* margin-right: 10px; */
+  /* margin-right: 20px; */
+  /* margin-left: 10%; */
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.form-check-input {
+  /* /* height: 100%; */
+  position: relative;
+  left: -3%;
+  /* width: 100%;  */
+  /* padding-left: 50px; */
+  /* margin-right: px; */
+}
+
+@media (max-width: 1268px) {
+  input[type="radio"] {
+    left: -5%;
+  }
+}
+
+/* Style the card container */
+.card {
+  /* display: flex; */
+  /* width: 80%; */
+  /* justify-content: center; */
+  margin-left: 18%;
+  margin-right: 18%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+/* Add spacing to navigation buttons */
+button {
+  height: 50px;
+  width: 150px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.msg{
+  font-size: 20px;
+  width: 40%;
+}
+
+.question-ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /*Remove padding */
+}
+.question-text {
+  font-size: 30px;
+  color: #2c3e50; /* Dark color for question text */
+  margin-right: 20px;
+}
+
+.difficulty-text {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic; /* Italic style for difficulty */
+  color: #7f8c8d; /* Gray color for difficulty text */
+}
